@@ -7,8 +7,9 @@ export const Button = ()=>{
     }
     return(
         <>
-        {ispara && <p>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>}
-          <button onClick={handleClick}>Click Me!</button>
+        {ispara && <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy.</p>}
+          <button onClick={handleClick} id=
+              "click">Click Me!</button>
         </>
     )
 }
